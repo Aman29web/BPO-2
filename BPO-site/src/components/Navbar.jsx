@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#0f172a] shadow-md fixed w-full z-10">
+    <nav className="bg-black/30 backdrop-blur-md shadow-md fixed w-full z-10">
       <div className="w-full px-0">
         <div className="flex justify-between h-16 items-center max-w-7xl mx-auto px-4">
           {/* Logo */}
@@ -19,16 +19,16 @@ const Navbar = () => {
 
           {/* Desktop Nav Links */}
           <div className="hidden md:flex space-x-8 items-center">
-            <a href="#" className="text-gray-300 hover:text-[#ed4a0d] font-medium">
+            <a href="#" className="text-white hover:text-[#ed4a0d] font-medium">
               Home
             </a>
-            <a href="#" className="text-gray-300 hover:text-[#ed4a0d] font-medium">
+            <a href="#" className="text-white hover:text-[#ed4a0d] font-medium">
               Services
             </a>
-            <a href="#" className="text-gray-300 hover:text-[#ed4a0d] font-medium">
+            <a href="#" className="text-white hover:text-[#ed4a0d] font-medium">
               About
             </a>
-            <a href="#" className="text-gray-300 hover:text-[#ed4a0d] font-medium">
+            <a href="#" className="text-white hover:text-[#ed4a0d] font-medium">
               Contact
             </a>
           </div>
@@ -79,17 +79,17 @@ const Navbar = () => {
 
       {/* Mobile Nav Links */}
       {isOpen && (
-        <div className="md:hidden bg-[#0f172a] px-4 pt-2 pb-4 space-y-1 shadow">
-          <a href="#" className="block text-gray-300 hover:text-[#ed4a0d]">
+        <div className="md:hidden bg-black/70 backdrop-blur-md px-4 pt-2 pb-4 space-y-1 shadow">
+          <a href="#" className="block text-white hover:text-[#ed4a0d]">
             Home
           </a>
-          <a href="#" className="block text-gray-300 hover:text-[#ed4a0d]">
+          <a href="#" className="block text-white hover:text-[#ed4a0d]">
             Services
           </a>
-          <a href="#" className="block text-gray-300 hover:text-[#ed4a0d]">
+          <a href="#" className="block text-white hover:text-[#ed4a0d]">
             About
           </a>
-          <a href="#" className="block text-gray-300 hover:text-[#ed4a0d]">
+          <a href="#" className="block text-white hover:text-[#ed4a0d]">
             Contact
           </a>
           <a

@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="text-[#4fc3f7]" />
-              <p className="text-slate-200">Kanpur</p>
+              <p className="text-slate-200">Lucknow</p>
             </div>
           </div>
         </motion.div>

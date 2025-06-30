@@ -25,7 +25,7 @@ const testimonials = [
   },
 ];
 
-const Testimonial = () => {
+const Temp = () => {
   return (
     <section className="py-20 bg-[#0f172a]">
       <div className="max-w-6xl mx-auto px-6">
@@ -69,4 +69,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonials;
+export default Temp;
