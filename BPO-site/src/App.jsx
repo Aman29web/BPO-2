@@ -19,6 +19,7 @@ import BpoHero2 from './components/BpoHero2'
 import HeroSection from './components/HeroSection'
 // import Testimonials from './components/testimonials'
 import Temp from './components/Temp'
+import Hero3 from './components/Hero'
 
 const App = () => {
   return (
@@ -28,10 +29,11 @@ const App = () => {
       <Navbar/>
       
       {/* <Testimonial/> */}
-      <HeroSection></HeroSection>
-
+      {/* <HeroSection></HeroSection> */}
+      {/* <Hero3></Hero3> */}
       {/* <BpoHero2></BpoHero2> */}
       {/* <Hero1/> */}
+      <Hero1></Hero1>
       <Hero/>
       <WhyChooseUs/>
       <Industries/>

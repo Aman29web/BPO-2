@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-const Hero = () => {
+const Hero3 = () => {
   return (
     <section className="relative w-full flex flex-col md:flex-row items-center overflow-hidden px-4 md:px-12 py-10 md:h-[500px] bg-[#0f172a]">
       {/* Left Lottie Animation */}
@@ -54,4 +54,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero3;

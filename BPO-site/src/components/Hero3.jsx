@@ -8,7 +8,7 @@ import AnimatedWaves from "./AnimationWave";
 //   { label: "Client Satisfaction", value: "97%" },
 // ];
 
-const Hero1 = () => {
+const Hero3 = () => {
   return (
     <section className="relative py-30 w-full overflow-hidden bg-gradient-to-b from-[#0a0f24] to-[#141e3c] text-white">
       <AnimatedWaves />
@@ -96,4 +96,4 @@ const Hero1 = () => {
   );
 };
 
-export default Hero1;
+export default Hero3;
